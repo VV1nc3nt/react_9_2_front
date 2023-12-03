@@ -1,0 +1,80 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.post {
+  width: 550px;
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 16px;
+  margin: 16px 0;
+  cursor: pointer;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-header-left {
+  display: flex;
+  align-items: center;
+}
+
+.post-mid {
+  display: flex;
+  margin: 16px 0;
+}
+
+.post-bottom {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.post-text {
+  width: 475px;
+  height: 100px;
+  resize: none;
+  margin-bottom: 16px;
+}
+
+.avatar {
+  width: 50px;
+  border-radius: 100px;
+}
+
+.nickname {
+  margin-left: 16px;
+}
+
+.create {
+  padding: 8px 16px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.back-btn {
+  margin-bottom: 16px;
+  align-self: flex-end;
+}
+
+.update-btn {
+  margin-right: 16px;
+}
